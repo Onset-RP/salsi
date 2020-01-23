@@ -1,0 +1,22 @@
+{
+    "author": "Kemro",
+    "version": "1.0",
+    "server_scripts": [
+        "simpletp/server.lua",
+        "detector/server.lua",
+        "vehdoors.lua"
+    ],
+    "client_scripts": [
+        "object3D.lua",
+        "simpletp/client.lua",
+        "detector/client.lua"
+    ],
+    "files": [
+        "pmediumfrontsign.pak",
+        "psign.pak",
+        "psmallfrontsign.pak",
+        "pstaarrow.pak",
+        "pvehonly.pak",
+        "detector/sound.mp3"
+    ]
+}
