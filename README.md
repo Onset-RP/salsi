@@ -13,3 +13,5 @@ Package should be set AFTER onsetrp:
     "onsetworld"
 ],
 ```
+
+And add [world.json](https://github.com/Onset-RP/salsi/wiki/world.json)
