@@ -1,9 +1,11 @@
 local doors = {
 	{x= 191009.0, y= 206329.0, z= 1320.0,  h= -90.0, x2= 191012.0, y2= 206707.0, z2= 1322.0, h2=90.0},	-- Comico back entrance
     {x= 189357.0, y= 208903.0, z= 1311.0,  h= 90.0,  x2= 189370.0, y2= 208488.0, z2= 1322.0, h2=-90.0}, -- Comico main entrance
-    {x= 191238.0, y= 207037.0, z= 1322.0,  h= 180.0,  x2= 191238.0, y2= 207037.0, z2= 2423.0, h2=180.0}, -- Ascenceur comico
-	}
+	{x= 191238.0, y= 207037.0, z= 1322.0,  h= 180.0,  x2= 191238.0, y2= 207037.0, z2= 2423.0, h2=180.0}, -- Ascenceur comico
+	{x= 171636.0, y= 195417.0, z= 584.0,  h= -90.0, x2= 170138.0, y2= 194165.0, z2= 1396.0, h2=180.0}, -- Prefecture 1
+}
 local text3d = {}
+
 AddEvent("OnPackageStart", function()
 	for k,v in pairs(doors) do
 		text3d[k] = {}

@@ -4,19 +4,42 @@
     "server_scripts": [
         "simpletp/server.lua",
         "detector/server.lua",
-        "vehdoors.lua"
+        "vehdoors.lua",
+        "screenbroke.lua"
     ],
     "client_scripts": [
-        "object3D.lua",
+        "object.lua",
         "simpletp/client.lua",
         "detector/client.lua"
     ],
     "files": [
+        "plargefrontsign.pak",
         "pmediumfrontsign.pak",
         "psign.pak",
         "psmallfrontsign.pak",
         "pstaarrow.pak",
+        "taxisign.pak",
+        "tbillboardad.pak",
+        "troadsign.pak",
+        "twallsign.pak",
+        "keyboard.pak",
         "pvehonly.pak",
-        "detector/sound.mp3"
+        "mouse.pak",
+        "luminousarrowtwo.pak",
+        "pcscreenfive.pak",
+        "pcscreenfour.pak",
+        "pcscreenone.pak",
+        "pcscreensix.pak",
+        "pcscreenthree.pak",
+        "pcscreentwo.pak",
+        "adscreentwo.pak",
+        "ecranhumoriste.pak",
+        "phone.pak",
+        "sol.pak",
+        "solbois.pak",
+        "plafon.pak",
+        "carpet.pak",
+        "panneauprefecture.pak",
+        "luminousarrow.pak"
     ]
 }

@@ -1,21 +1,25 @@
 local doorstocheck = {}
 
-doorstocheck[1] = {}
-doorstocheck[1].door = 410
-doorstocheck[1].vehid = 3
-doorstocheck[2] = {}
-doorstocheck[2].door = 411
-doorstocheck[2].vehid = 3
-doorstocheck[3] = {}
-doorstocheck[3].door = 412
-doorstocheck[3].vehid = 3
-doorstocheck[4] = {}
-doorstocheck[4].door = 413
-doorstocheck[4].vehid = 3
-doorstocheck[5] = {}
-doorstocheck[5].door = 414
-doorstocheck[5].vehid = 3
-doorstocheck[6] = {}
+table.insert(doorstocheck, { door = 29, vehid = 3 })
+table.insert(doorstocheck, { door = 30, vehid = 3 })
+
+table.insert(doorstocheck, { door = 555, vehid = 3 })
+table.insert(doorstocheck, { door = 556, vehid = 3 })
+table.insert(doorstocheck, { door = 557, vehid = 3 })
+table.insert(doorstocheck, { door = 558, vehid = 3 })
+table.insert(doorstocheck, { door = 559, vehid = 3 })
+
+table.insert(doorstocheck, { door = 555, vehid = 3 })
+table.insert(doorstocheck, { door = 556, vehid = 3 })
+table.insert(doorstocheck, { door = 557, vehid = 3 })
+table.insert(doorstocheck, { door = 558, vehid = 3 })
+table.insert(doorstocheck, { door = 559, vehid = 3 })
+
+table.insert(doorstocheck, { door = 580, vehid = 3 })
+table.insert(doorstocheck, { door = 581, vehid = 3 })
+table.insert(doorstocheck, { door = 582, vehid = 3 })
+table.insert(doorstocheck, { door = 583, vehid = 3 })
+table.insert(doorstocheck, { door = 584, vehid = 3 })
 
 --doorstocheck[nombred'avant+1] = {}
 --doorstocheck[nombre de la ligne d'au dessus].door = nombre de lignes Createdoor avant celle la + 1
