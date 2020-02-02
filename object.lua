@@ -83,5 +83,8 @@ function OnPackageStart()
     local pakname = "carpet"
 	local res = LoadPak(pakname, "/carpet/", "../../../OnsetModding/Plugins/carpet/Content")
 	res = ReplaceObjectModelMesh(185, "/carpet/carpet")
+    local pakname = "ascenseur"
+	local res = LoadPak(pakname, "/ascenseur/", "../../../OnsetModding/Plugins/ascenseur/Content")
+	res = ReplaceObjectModelMesh(186, "/ascenseur/ascenseur")
 end
 AddEvent("OnPackageStart", OnPackageStart)
