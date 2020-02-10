@@ -4,13 +4,15 @@
     "server_scripts": [
         "simpletp/server.lua",
         "detector/server.lua",
+        "sit/server.lua",
         "vehdoors.lua",
         "screenbroke.lua"
     ],
     "client_scripts": [
         "object.lua",
         "simpletp/client.lua",
-        "detector/client.lua"
+        "detector/client.lua",
+        "sit/client.lua"
     ],
     "files": [
         "plargefrontsign.pak",
