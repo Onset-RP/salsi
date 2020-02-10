@@ -1,5 +1,5 @@
 function OnScriptError(message) --Standard copy&paste code from onset lua script examples for printing out lua errors    AddPlayerChat('<span color="#33DD33" style="bold" size="12">[PinColorpicker]</> - ' .. msgs[i])
-	AddPlayerChat('<span color="#882233" style="bold" size="12">[ScriptTester Error] [CLIENT]</>: ' .. message)
+	print(message)
 end
 AddEvent("OnScriptError", OnScriptError)
 
