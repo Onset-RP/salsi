@@ -13,6 +13,7 @@
         "detector/client.lua"
     ],
     "files": [
+        "detector/sound.mp3",
         "plargefrontsign.pak",
         "pmediumfrontsign.pak",
         "psign.pak",

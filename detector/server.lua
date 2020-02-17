@@ -38,9 +38,6 @@ AddEvent("OnPackageStart", function()
 			for _, player in pairs(players) do
 				if detect.InUse == false then
 					playerData = OnsetRP.GetPlayerData(player)
-					print("--------")
-					print(playerData)
-					print("--------")
 					for k, _ in pairs(playerData.inventory) do
 						for _, v in pairs(BlacklistItems) do
 							if k == v then
