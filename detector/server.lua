@@ -38,18 +38,20 @@ AddEvent("OnPackageStart", function()
 			for _, player in pairs(players) do
 				if detect.InUse == false then
 					playerData = OnsetRP.GetPlayerData(player)
-					for k, _ in pairs(playerData.inventory) do
-						for _, v in pairs(BlacklistItems) do
-							if k == v then
-								local players = GetPlayersInRange3D(detect.x, detect.y, detect.z, SoundDistance)
-								for _, v in pairs(players) do
-									CallRemoteEvent(v, "BeepSound", detect.x, detect.y, detect.z)
-									detect.InUse = true
-									Delay(800, function()
-										detect.InUse = false
-									end)
+					if playerData.inventory then
+						for k, _ in pairs(playerData.inventory) do
+							for _, v in pairs(BlacklistItems) do
+								if k == v then
+									local players = GetPlayersInRange3D(detect.x, detect.y, detect.z, SoundDistance)
+									for _, v in pairs(players) do
+										CallRemoteEvent(v, "BeepSound", detect.x, detect.y, detect.z)
+										detect.InUse = true
+										Delay(800, function()
+											detect.InUse = false
+										end)
+									end
+									return
 								end
-								return
 							end
 						end
 					end
